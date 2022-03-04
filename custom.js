@@ -2,62 +2,32 @@ window.snake.more_menu = function() {
   window.snake_scheme_epic_cool = window.snake_scheme_epic_cool || { light_squares: '#AAD751', dark_squares:  '#A2D149' };
   window.snake_scheme_epic_cool = window.snake_scheme_epic_cool || { light_squares: '#AAD751', dark_squares:  '#A2D149' };
   
+  cont sizeLinks = [
+    //micro
+    'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Micro.png?raw=true',
+    //tiny (Like yo Dick)
+    'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Tiny.png?raw=true',
+    //between small & standard
+    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAABYElEQVRoQ+2Y2w7DIAxD1///6E2VRsUYJXZuFIm9AuHEMSzleC38OxZmf214oXrvZtxNMEugAtWL0QLX/JY9f3SwBGLgz31G81VHLwq+B1NXw7LvFdsSRKOkZs1tVTY8aNilbeNqmVOwTNssC+9umUzl3VXf8OC5WVb5EL9n2CYMPBPeciVPaw9CvF6ysSiCgIV9iFhtg7Q0oR8lFuUR+HrOKBGVEzLh3ROZBS99aUGWfhI8a0NTS0xv5r1ghvLIFQvl+SR4OikGvhec3XDU67CxKM+3wTVNF/JQBQsKT6xevMo1RislvJrR8Rj4E7r3L8nEmKZ8D54Br9ePHmfhmPDE792l8Xm59qS1qbbRJn63LhQ+w+9QT6NpQe9aWrQCroeVybL1q+TfUdfoclg18PXGjEelZJlYlzBoyaFGaTBJgpPGu6E3PFAWSVlp/NHKA/n/T8myjQpOWrThJYWixj+UTlgwJgIXFAAAAABJRU5ErkJggg==',
+    //super big
+    'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Super%20Big.png?raw=true',
+    //ultra big
+    'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Too%20Big.png?raw=true',
+    //humongous
+    'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Humongous.png?raw=true',
+    //too big
+    'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Too%20Big.png?raw=true',
+    //too big 2
+    'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Way%20Too%20Big.png?raw=true'
+  ]
   
-  // micro
-  let img = new Image;
-  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Micro.png?raw=true';
-  img.width = 47;
-  img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
-  // tiny
-  img = new Image;
-  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Tiny.png?raw=true';
-  img.width = 47;
-  img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
-  // between small & standard
-  img = new Image;
-  img.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAABYElEQVRoQ+2Y2w7DIAxD1///6E2VRsUYJXZuFIm9AuHEMSzleC38OxZmf214oXrvZtxNMEugAtWL0QLX/JY9f3SwBGLgz31G81VHLwq+B1NXw7LvFdsSRKOkZs1tVTY8aNilbeNqmVOwTNssC+9umUzl3VXf8OC5WVb5EL9n2CYMPBPeciVPaw9CvF6ysSiCgIV9iFhtg7Q0oR8lFuUR+HrOKBGVEzLh3ROZBS99aUGWfhI8a0NTS0xv5r1ghvLIFQvl+SR4OikGvhec3XDU67CxKM+3wTVNF/JQBQsKT6xevMo1RislvJrR8Rj4E7r3L8nEmKZ8D54Br9ePHmfhmPDE792l8Xm59qS1qbbRJn63LhQ+w+9QT6NpQe9aWrQCroeVybL1q+TfUdfoclg18PXGjEelZJlYlzBoyaFGaTBJgpPGu6E3PFAWSVlp/NHKA/n/T8myjQpOWrThJYWixj+UTlgwJgIXFAAAAABJRU5ErkJggg==';
-  img.width = img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
-  // super big
-  img = new Image;
-  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Super%20Big.png?raw=true';
-  img.width = 47;
-  img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
-  // ultra big
-  img = new Image;
-  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Too%20Big.png?raw=true';
-  img.width = 47;
-  img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
-  // humongous
-  img = new Image;
-  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Humongous.png?raw=true';
-  img.width = 47;
-  img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
-  // too big
-  img = new Image;
-  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Too%20Big.png?raw=true';
-  img.width = 47;
-  img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
-  // too big
-  img = new Image;
-  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Way%20Too%20Big.png?raw=true';
-  img.width = 47;
-  img.height = 47;
-  document.querySelector('#size').appendChild(img);
-
+  for (let i; i < sizeLinks.length; i++) {
+    let img = new Image;
+    img.src = sizeLinks[i];
+    img.width = 47;
+    img.height = 47;
+    document.querySelector('#size').appendChild(img);
+  }
 
   /*--SPEEDS--*/
 
